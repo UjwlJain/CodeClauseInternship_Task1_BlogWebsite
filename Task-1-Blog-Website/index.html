@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Site</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Blog-Time</h1>
+  </header>
+  
+  <nav>
+    <ul>
+        <li><a href="#" onclick="displayAllArticles()">Home</a></li>
+        <li><a href="#" onclick="displayCategory('Sports')">Sports</a></li>
+        <li><a href="#" onclick="displayCategory('Business')">Business</a></li>
+        <li><a href="#" onclick="displayCategory('Entertainment')">Entertainment</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="article-section">
+      <!-- Articles will be populated dynamically using JavaScript -->
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Blog-Time. All rights reserved.</p>
+  </footer>
+  
+  <script src="index.js"></script>
+</body>
+</html>
